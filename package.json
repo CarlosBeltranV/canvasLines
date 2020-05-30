@@ -1,0 +1,27 @@
+{
+  "name": "canvasLines",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./src/canvas-lines.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosBeltranV/canvasLines.git"
+  },
+  "author": "CarlosBeltranV",
+  "license": "MIT",
+  "homepage": "https://github.com/CarlosBeltranV/canvasLines#readme",
+  "bugs": {
+    "url": "https://github.com/CarlosBeltranV/canvasLines/issues"
+  },
+  "keywords": [
+    "javaScript",
+    "Web Component",
+    "LitElement"
+  ],
+  "dependencies": {
+    "lit-element": "^2.3.1"
+  }
+}
