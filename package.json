@@ -22,6 +22,5 @@
     "LitElement"
   ],
   "dependencies": {
-    "lit-element": "^2.3.1"
   }
 }
