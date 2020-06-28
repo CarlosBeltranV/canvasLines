@@ -52,10 +52,14 @@ export class CanvasLines extends LitElement {
       let yi = espacio * l
       let xf = espacio * (l + 1)
       this.dibujarLinea(colorcito, 0, yi, xf, 300)
+      this.dibujarLinea(colorcito, yi, 0, 300, xf)
       l++
     }
     this.dibujarLinea(colorcito, 1, 1, 1, 299)
     this.dibujarLinea(colorcito, 1, 299, 299, 299)
+    this.dibujarLinea("black", 1, 1, 299, 299)
+    this.dibujarLinea(colorcito, 299, 1, 299, 299)
+    this.dibujarLinea(colorcito, 1, 1, 299, 1)
   }
 
   dibujarLinea(color, xinicial, yinicial, xfinal, yfinal) {
