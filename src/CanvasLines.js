@@ -23,7 +23,7 @@ export class CanvasLines extends LitElement {
         <button @click="${this.preguntarLineas}">A darle!</button>
       </p>
       <canvas width="300" height="300" id="dibujito"></canvas>
-      <p>Así quedan las líneas</p>
+      <p>Así son las líneas</p>
     `
   }
 
@@ -57,7 +57,7 @@ export class CanvasLines extends LitElement {
     }
     this.dibujarLinea(colorcito, 1, 1, 1, 299)
     this.dibujarLinea(colorcito, 1, 299, 299, 299)
-    this.dibujarLinea("black", 1, 1, 299, 299)
+    //this.dibujarLinea("black", 1, 1, 299, 299)
     this.dibujarLinea(colorcito, 299, 1, 299, 299)
     this.dibujarLinea(colorcito, 1, 1, 299, 1)
   }
