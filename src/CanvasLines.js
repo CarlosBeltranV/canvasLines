@@ -57,7 +57,7 @@ export class CanvasLines extends LitElement {
     }
     this.dibujarLinea(colorcito, 1, 1, 1, 299)
     this.dibujarLinea(colorcito, 1, 299, 299, 299)
-    this.dibujarLinea("black", 1, 1, 299, 299)
+    //this.dibujarLinea("black", 1, 1, 299, 299)
     this.dibujarLinea(colorcito, 299, 1, 299, 299)
     this.dibujarLinea(colorcito, 1, 1, 299, 1)
   }
